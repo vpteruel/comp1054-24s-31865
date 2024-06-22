@@ -1,0 +1,62 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #ffe297;
+    background-color: #747580;
+}
+
+header,
+footer {
+    background-color: #4a4c52;
+    color: #ffe297;
+}
+
+header h1,
+footer p {
+    margin: 0;
+    font-family: 'Pacifico', cursive;
+}
+
+main {
+    background-color: #747580;
+}
+
+.lyrics-column {
+    border-right: 1px solid #ffe297;
+}
+
+.lyrics {
+    white-space: pre-line;
+}
+
+.lyrics-column h2,
+.video-column h2 {
+    font-family: 'Pacifico', cursive;
+}
+
+.lyrics {
+    font-weight: 700;
+    font-size: 1.2em;
+}
+
+.video-column {
+    text-align: center;
+}
+
+.video-column iframe {
+    border: 2px solid #ffe297;
+}
+
+.happy {
+    color: #00ff00;
+    text-shadow: 0px 0px 12px #ddffdd;
+}
+
+.sad {
+    color: #0000ff;
+    text-shadow: 0px 0px 12px #ddddff;
+}
+
+.yelling {
+    color: #ff0000;
+    text-shadow: 0px 0px 12px #ffdddd;
+}
