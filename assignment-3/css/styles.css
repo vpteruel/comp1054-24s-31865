@@ -6,7 +6,6 @@ body {
 }
 
 header {
-    
     background-color: #F2F2F2;
     text-align: center;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
@@ -32,6 +31,7 @@ nav a {
 
 nav a:hover {
     color: #666;
+    text-decoration: underline;
 }
 
 main {
