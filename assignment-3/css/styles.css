@@ -1,0 +1,128 @@
+body {
+    background: linear-gradient(to bottom, #88ca9c, #ffffff);
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    
+    background-color: #F2F2F2;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+nav ul {
+    max-width: 800px;
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li {
+    margin: 0 10px 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+nav a:hover {
+    color: #666;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2em;
+}
+
+section {
+    background-image: url('pistachio-pattern.jpg');
+    background-size: 200px 200px;
+    background-color: #f2f2f2;
+    padding: 2em;
+    margin-bottom: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+h1, h2 {
+    color: #333;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+footer {
+    padding: 20px;
+    background-image: linear-gradient(to bottom, #333, #444);
+    color: #fff;
+}
+
+.footer-container {
+    max-width: 800px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "footer-logo footer-form"
+      "footer-info footer-form";
+}
+  
+.footer-logo {
+    grid-area: footer-logo;
+}
+
+.footer-logo img {
+    width: 200px;
+    height: auto;
+    margin: auto;
+}
+  
+.footer-info {
+    grid-area: footer-info;
+    padding-right: 20px;
+}
+  
+.footer-form {
+    grid-area: footer-form;
+}
+
+.footer-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-form label {
+    margin-bottom: 5px;
+}
+
+.footer-form input, .footer-form textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.footer-form button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.footer-form button:hover {
+    background-color: #444;
+}
