@@ -20,7 +20,7 @@ jobs:
         protocol: ftps
         port: 21
         local-dir: main-project/
-        server-dir: main-project-group-2.42web.io/htdocs/
+        server-dir: main-project-group-2.vpteruel.42web.io/htdocs/
         exclude: |
           **/.git*
           **/.git*/**
